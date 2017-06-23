@@ -31,19 +31,15 @@ h3 {
     font-size: 1.6em;
 }
 
-p, ul, ol {
+p,
+ul,
+ol {
     margin-top: 0;
     line-height: 180%;
 }
 
-ul, ol {
-}
-
 a {
-    color: #5E5E5E;
-}
-
-a:hover {
+    color: #5e5e5e;
 }
 
 #wrapper {
