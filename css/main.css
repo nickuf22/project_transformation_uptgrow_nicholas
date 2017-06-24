@@ -20,15 +20,15 @@ h3 {
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 h2 {
-    font-size: 2.8em;
+    font-size: 2.5rem;
 }
 
 h3 {
-    font-size: 1.6em;
+    font-size: 1.6rem;
 }
 
 p,
@@ -47,7 +47,7 @@ a {
 }
 
 .container {
-    width: 1000px;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -57,7 +57,7 @@ a {
 }
 
 #header {
-    width: 1000px;
+    width: 90%;
     height: 150px;
     margin: 0 auto;
     padding: 0 0;
@@ -66,7 +66,7 @@ a {
 /* Logo */
 #logo {
     float: left;
-    width: 300px;
+    width: 30%;
     margin: 0;
     padding: 0;
     color: #ffffff;
@@ -74,8 +74,8 @@ a {
 
 #logo h1 {
     line-height: 120px;
-    letter-spacing: -2px;
-    font-size: 3.8em;
+    letter-spacing: -2%;
+    font-size: 3.5rem;
 }
 
 #logo h1 a {
@@ -87,7 +87,7 @@ a {
     margin: 0;
     padding: 0 0 0 0;
     letter-spacing: -1px;
-    font: normal 18px Georgia, "Times New Roman", Times, serif;
+    font: normal 3rem Georgia, "Times New Roman", Times, serif;
     font-style: italic;
     color: #8e8e8e;
 }
@@ -103,55 +103,10 @@ a {
     color: #000000;
 }
 
-/* Splash */
-#splash {
-    width: 960px;
-    height: 300px;
-    margin: 0 auto;
-}
-
-/* Search */
-#search {
-    float: right;
-    width: 280px;
-    height: 60px;
-    padding: 20px 0 0 0;
-}
-
-#search form {
-    height: 41px;
-    margin: 0;
-    padding: 10px 0 0 20px;
-}
-
-#search fieldset {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
-
-#search-text {
-    width: 170px;
-    padding: 6px 5px 2px 5px;
-    border: 1px solid #e7ebed;
-    background: #ffffff;
-    text-transform: lowercase;
-    font: normal 11px Arial, Helvetica, sans-serif;
-    color: #5d781d;
-}
-
-#search-submit {
-    width: 50px;
-    height: 22px;
-    border: none;
-    background: #b9b9b9;
-    color: #000000;
-}
-
 /* Menu */
 #menu {
     float: right;
-    width: 500px;
+    width: 50%;
     height: 90px;
     margin: 0 auto;
     padding: 0;
@@ -160,7 +115,7 @@ a {
 #menu ul {
     float: right;
     margin: 0;
-    padding: 20px 0 0 0;
+    padding: 5% 0 0 0;
     list-style: none;
     line-height: normal;
 }
@@ -172,14 +127,14 @@ a {
 #menu a {
     display: block;
     line-height: 100px;
-    margin-right: 1px;
+    margin-right: 1%;
     padding: 0 20px 0 20px;
     text-decoration: none;
     text-align: center;
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 300;
     color: #1f1f1f;
     border: none;
@@ -194,26 +149,26 @@ a {
 
 /* Page */
 #page {
-    width: 1000px;
+    width: 90%;
     margin: 0 auto;
-    padding: 30px 0;
+    padding: 0.3% 0;
 }
 
 /* Content */
 #content {
     float: right;
-    width: 660px;
+    width: 65%;
     padding: 0 0 0 0;
 }
 
 .post {
     overflow: hidden;
-    margin-bottom: 40px;
-    border-bottom: 1px solid #e7ebed;
+    margin-bottom: 4%;
+    border-bottom: 0.1% solid #e7ebed;
 }
 
 .post .title {
-    padding: 7px 0 0 0;
+    padding: 0.7% 0 0 0;
     letter-spacing: -1px;
 }
 
@@ -224,11 +179,11 @@ a {
 }
 
 .post .meta {
-    margin-bottom: 30px;
-    padding: 10px 0 0 0;
+    margin-bottom: 3%;
+    padding: 5% 0 0 0;
     text-align: left;
     font-family: 'Abel', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 300;
 }
 
@@ -241,21 +196,21 @@ a {
 }
 
 .post .entry {
-    padding: 0 0 40px 0;
+    padding: 0 0 10% 0;
     text-align: justify;
 }
 
 .links {
-    padding-top: 20px;
-    margin-bottom: 30px;
+    padding-top: 4%;
+    margin-bottom: 6%;
 }
 
 .more {
     display: block;
     float: left;
-    width: 88px;
-    padding: 5px 5px;
-    margin-right: 10px;
+    width: 14%;
+    padding: 1% 1%;
+    margin-right: 5%;
     background: #222222;
     color: #ffffff;
     text-align: center;
@@ -265,8 +220,8 @@ a {
 .comments {
     display: block;
     float: left;
-    width: 88px;
-    padding: 5px 5px;
+    width: 14%;
+    padding: 1% 1%;
     background: #222222;
     color: #ffffff;
     text-align: center;
@@ -276,9 +231,9 @@ a {
 /* Sidebar */
 #sidebar {
     float: left;
-    width: 270px;
+    width: 25%;
     margin: 0;
-    padding: 30px 0 0 0;
+    padding: 3% 0 0 0;
 }
 
 #sidebar ul {
@@ -294,11 +249,11 @@ a {
 
 #sidebar li ul {
     margin: 0 0;
-    padding-bottom: 30px;
+    padding-bottom: 18.75%;
 }
 
 #sidebar li li {
-    line-height: 40px;
+    line-height: 250%;
     border-bottom: 1px solid #e7ebed;
     margin: 0 0;
     border-left: none;
@@ -306,9 +261,9 @@ a {
 
 #sidebar li li span {
     display: block;
-    margin-top: -20px;
+    margin-top: 12.5%;
     padding: 0;
-    font-size: 11px;
+    font-size: 0.7rem;
     font-style: italic;
 }
 
@@ -318,8 +273,8 @@ a {
 }
 
 #sidebar h2 {
-    height: 38px;
-    padding: 0 0 30px 0;
+    height: 23.75%;
+    padding: 0 0 12% 0;
     letter-spacing: -0.5px;
     font-size: 1.8em;
     color: #222222;
@@ -327,7 +282,7 @@ a {
 
 #sidebar p {
     margin: 0 0;
-    padding: 0 30px 20px 30px;
+    padding: 0 15% 10% 15%;
     text-align: justify;
 }
 
@@ -339,96 +294,20 @@ a {
     text-decoration: underline;
 }
 
-/* Calendar */
-#calendar_wrap {
-    padding: 20px;
-}
-
-#calendar table {
-    width: 100%;
-}
-
-#calendar tbody td {
-    text-align: center;
-}
-
-#calendar #next {
-    text-align: right;
-}
-
-/* Three Column Footer Content */
-#footer-content {
-    overflow: hidden;
-    width: 1000px;
-    margin: 0 auto;
-    color: #d6e2f0;
-}
-
-#footer-content a {
-    color: #92a9b6;
-}
-
-#footer-bg {
-    overflow: hidden;
-    padding: 30px 0;
-    background: #e8e8e8;
-}
-
-#footer-content h2 {
-    margin: 0;
-    padding: 0 0 20px 0;
-    letter-spacing: -1px;
-    font-size: 26px;
-    color: #262626;
-}
-
-
-#footer-content #fbox1 {
-    float: left;
-    width: 300px;
-    margin-right: 50px;
-}
-
-#footer-content #fbox2 {
-    float: left;
-    width: 300px;
-}
-
-#footer-content #fbox3 {
-    float: right;
-    width: 300px;
-}
-
-#column1 {
-    float: left;
-    width: 290px;
-    margin-right: 30px;
-}
-
-#column2 {
-    float: left;
-    width: 280px;
-}
-
-#column3 {
-    float: right;
-    width: 260px;
-}
-
 /* Footer */
 #footer {
-    height: 140px;
+    height: 90%;
     margin: 0 auto;
-    padding: 50px 0 15px 0;
+    padding: 5% 0 10% 0;
     font-family: 'Abel', sans-serif;
 }
 
 #footer p {
     margin: 0;
-    padding-top: 10px;
+    padding-top: 2.5%;
     letter-spacing: 1px;
     line-height: normal;
-    font-size: 14px;
+    font-size: 0.8rem;
     text-transform: uppercase;
     text-align: center;
     color: #5e5e5e;
@@ -438,44 +317,9 @@ a {
     color: #5e5e5e;
 }
 
-#marketing {
-    overflow: hidden;
-    margin-bottom: 30px;
-    padding: 20px 0 10px 0;
-    border-top: 1px solid #e7ebed;
-    border-bottom: 1px solid #e7ebed;
-}
-
-#marketing .text1 {
-    float: left;
-    margin: 0;
-    padding: 0;
-    letter-spacing: -2px;
-    text-transform: lowercase;
-    font-size: 34px;
-    color: #345e9b;
-}
-
-#marketing .text2 {
-    float: right;
-}
-
-#marketing .text2 a {
-    display: block;
-    width: 252px;
-    height: 38px;
-    padding: 15px 0 0 0;
-    background: url(../img/img07.jpg) no-repeat left top;
-    letter-spacing: -2px;
-    text-align: center;
-    text-transform: lowercase;
-    font-size: 30px;
-    color: #ffffff;
-}
-
 #banner {
     margin: 0 auto;
-    width: 1000px;
+    width: 90%;
     height: 340px;
     background: url(../img/img03.png) no-repeat left bottom;
 }
