@@ -321,3 +321,149 @@ a {
         color: #5e5e5e;
     }
 }
+
+/* Media Queries - 800 pixel */
+@media (min-width: 800px) {
+
+    /* Header */
+    #header {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 0;
+    }
+
+    /* Logo */
+    #logo {
+        float: left;
+        width: 30%;
+    }
+
+    #logo h1 {
+        line-height: 120px;
+    }
+
+    /* Menu */
+    #menu {
+        float: right;
+        width: 50%;
+        height: 90px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    #menu ul {
+        float: right;
+        margin: 0;
+        padding: 5% 0 0 0;
+        list-style: none;
+        line-height: normal;
+    }
+
+    #menu li {
+        float: left;
+    }
+
+    #menu a {
+        display: block;
+        line-height: 100px;
+        margin-right: 1%;
+        padding: 0 20px 0 20px;
+        text-decoration: none;
+        text-align: center;
+        text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+        text-transform: uppercase;
+        font-family: 'Oswald', sans-serif;
+        font-size: 1rem;
+        font-weight: 300;
+        color: #1f1f1f;
+        border: none;
+    }
+
+    #menu a:hover,
+    #menu .current_page_item a {
+        background: url(../img/img01.jpg) repeat;
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    /* Content */
+    #content {
+        float: right;
+        width: 65%;
+        padding: 0 0 0 0;
+    }
+
+    .post {
+        overflow: hidden;
+        margin-bottom: 4%;
+        border-bottom: 0.1% solid #e7ebed;
+    }
+
+    .post .title {
+        padding: 0.7% 0 0 0;
+        letter-spacing: -1px;
+    }
+
+    .post .title a {
+        border: none;
+        text-decoration: none;
+        color: #222222;
+    }
+
+    .post .meta {
+        margin-bottom: 3%;
+        padding: 5% 0 0 0;
+        text-align: left;
+        font-family: 'Abel', sans-serif;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+
+    .post .meta .date {
+        float: left;
+    }
+
+    .post .meta .posted {
+        float: right;
+    }
+
+    .post .entry {
+        padding: 0 0 10% 0;
+        text-align: justify;
+    }
+
+    .links {
+        padding-top: 4%;
+        margin-bottom: 6%;
+    }
+
+    .more {
+        display: block;
+        float: left;
+        width: 14%;
+        padding: 1% 1%;
+        margin-right: 5%;
+        background: #222222;
+        color: #ffffff;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .comments {
+        display: block;
+        float: left;
+        width: 14%;
+        padding: 1% 1%;
+        background: #222222;
+        color: #ffffff;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    /* Sidebar */
+    #sidebar {
+        float: left;
+    }
+
+
+}
